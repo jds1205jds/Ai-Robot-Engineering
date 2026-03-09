@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 from tensorflow import keras
-import random
+import random 
 import winsound
 
 print("학습 중... 잠시만 기다려주세요.")
