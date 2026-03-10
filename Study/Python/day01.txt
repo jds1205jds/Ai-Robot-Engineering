@@ -1,0 +1,61 @@
+자료형 - 문자열(string), 숫자, 불
+
+문자열 print(" ")/ print(' ')           
+type함수 print(type())
+len함수 print(len())
+문자열연산자
+문자열연결연산자 문자열+문자열
+문자열반복연산자 문자열*3(숫자)
+문자선택연산자(인덱싱) [] 안녕하세요[0] ==안
+                                    0123456
+                                    -5-4-3-2-1
+문자열범위선택연산자(슬라이싱)[:] 
+안녕하세요[0:2] == 안녕
+안녕하세요[1:] == 녕하세요
+
+숫자
+정수 실수
+// 정수나누기 연산자
+% 나머지연산자
+**제곱연산자
+input함수 print(input(" ") 바로 입력값받음
+int(stringA) 문자열 숫자변환
+str(int/float) 숫자 문자열변환
+format()함수
+"{ }".format(10) 숫자 문자열변환
+"{:.2f}".format(52.733) 소수점두번째까지
+upper() /  lower() 대문자/소문자변환
+a= hello 
+a.upper()
+strip()함수 양옆 공백제거
+find()함수 문자열 왼쪽부터 위치확인
+rfind()함수 문자열 오른쪽부터 위치확인
+a.find("he")
+in연산자  print("안녕" in "안녕하세요")
+split()함수 특정문자로 짜를때
+
+-----
+불
+!= 다르다
+not 불을 반대로
+and 둘다참일때만 참
+or 하나만 참여도 참
+
+if 식 :
+ print
+else :
+print
+
+if
+elif
+else
+
+pass 빈줄삽입 , 미구현상태일때 오류없이 사용가능
+
+for문
+for 숫자변수 in 범위:
+코드
+for i in range(5)
+for i in range(len(array))
+for i in range(1, 15) 
+for i in range(1, 5, 2) 1~5 2씩증가
